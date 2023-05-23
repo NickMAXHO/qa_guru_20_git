@@ -3,7 +3,8 @@ package guru.qa;
 public class Main {
     public static void main(String[] args) {
         if (args.length == 0) {
-            System.out.println("Hello qa_guru!!!");
+            String msg = "Hello qa_guru!!!";
+            System.out.println(msg);
         }
     }
 }
